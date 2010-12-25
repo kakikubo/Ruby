@@ -1,0 +1,12 @@
+---
+user: run_walk
+group: run_walk
+cwd: /usr/local/run_walk
+port: 53000
+#environment: development 
+#environment: production
+environment: staging
+log_file: log/mongrel.log
+pid_file: tmp/pids/mongrel.pid
+servers: 1 
+
